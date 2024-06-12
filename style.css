@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px 0;
+    background-color: white;
+    position: relative;  /* Add this line */
+    z-index: 1000;
+}
+
+.first-part-of-navbar {
+    width: 45%;
+    margin-left: 150px;
+}
+
+.second-part-of-navbar {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 105px;
+}
+
+.navbar li {
+    display: flex;
+    padding: 15px;
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+}
+
+.navbar button {
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-left: 45px;
+    border: 2px black solid;
+    background-color:white;
+}
+.navbar button:hover{
+    background-color: #2d2640;
+    color: white;
+}
+
+.container {
+
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.first-part-of-container {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #2d2640;
+    padding: 50px;
+}
+
+.left-content {
+    max-width: 600px;
+    margin-left: 150px;
+    margin-right: 70px;
+}
+
+.left-content h2 {
+    font-size: 55px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.left-content button {
+    padding: 12px 30px;
+    background-color: #2d2640;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.left-content button:hover {
+    background-color: white;
+    color: #2d2640;
+    font-weight: bold;
+}
+
+.right-content img {
+    max-width: 100%;
+    height: auto;   
+    margin-top: 65px;
+}
+.second-part-of-container{
+    color: #2d2640;
+    font-size: 45px;
+    width: 75%;
+    margin: 0 auto;
+}
+.top-content{
+    margin-bottom: 100px;
+}
+.middle-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width:400px ;
+}
+
+.name{
+    margin: 20px 0;
+    line-height: 1.2;
+}
+.p p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+
